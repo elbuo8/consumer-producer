@@ -1,0 +1,18 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "description": "Simple addition and subtraction equation generator",
+  "main": "producer.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*",
+    "start": "node app.js"
+  },
+  "author": "Yamil Asusta",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
